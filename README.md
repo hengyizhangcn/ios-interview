@@ -44,7 +44,7 @@ souretree, cornerstone, sublime, Xmind, Reveal, Charles, MarkMan, Jenkins, iTool
 36.多线程有哪些，比较它们的不同  
 37.以+ scheduledTimerWithTimeInterval...的方式触发的timer，在滑动页面上的列表时，timer会暂定回调，为什么？如何解决？  
 38.retain和strong的区别  
-39.autorelease的区别  
+39.autorelease什么时候释放  
 40.GCD并发控制  
 41.MRC和ARC的区别  
 42.dealloc不调用的原因有哪些  
