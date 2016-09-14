@@ -4,7 +4,12 @@ ios 面试知识点
 #基础知识点
 1.import和class的区别  
 2.数据库增加/修改表属性，DDL, DML, DQL, DCL分别是什么  
-3.viewdidload和loadview区别  
+3.viewdidload和loadview区别, controller的生命周期是怎样的，调用顺序呢  
+Implement loadView to create a view hierarchy programmatically, without using a nib, no super to call<br>
+Implement viewDidLoad to do additional setup after loading the view, typically from a nib. Has to call super<br>
+（controller的view默认为uiview，如果想修改类型，可以在loadview里面完成）<br>
+controller生命周期：alloc->init->loadview->viewdidload->viewwillappear->viewdidappear->viewwilldisapper->viewdiddisappear->dealloc<br>
+如果有内存警告，可能调用的顺序是:viewdiddisappear->内存警告->viewdidunload->对象被释放<br>
 4.post和get的区别  
 5.swift和oc优缺点  
 6.swift中!和?是做什么的  
