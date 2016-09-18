@@ -1,7 +1,7 @@
 objective-c和swift的比较
-#语法
+一、语法
 swift使用链式语法
-#实例创建
+实例创建
 oc
 - (id)instance {
 	static dispatch_once_t predict;
@@ -13,3 +13,35 @@ oc
 }
 swift
 static let instance = CTViewController()
+工厂方法和对象方法
+工厂方法用static进行标识
+二、
+
+
+参考资料
+1.十点比较
+1）swift易读
+更接近java, python, c#等
+2）易维护
+每个类只有一个文件，
+3）更安全
+可选型，让错误更容易发现
+4）内存统一管理
+在oc里面，core graphic并不能由arc进行管理，加大了编程者的难度
+5）代码量更少
+6）更快
+7）集成开源项目时，命名冲突少
+8）支持动态库
+9）playground支持交互编程
+10）你可以影响到swift的未来
+参考：http://www.infoworld.com/article/2920333/mobile-development/swift-vs-objective-c-10-reasons-the-future-favors-swift.html
+2.选择oc还是swift来开发你的项目
+1）你的经验oc vs swift
+2）项目的截止时间，范围和项目大小
+截止时间：技术债需要时间和精力来偿
+人员构成：其它人的经验
+项目大小：如果项目比较大，要注意了，由swift语言的更新很频繁，会项目的适配更改带来很大的困难
+3）选择在oc和swift之间的技术实现方案
+工具支持
+语言运行时：oc运行时更加具有鲁棒性
+参考：http://savvyapps.com/blog/ultimate-guide-choosing-objective-c-or-swift
