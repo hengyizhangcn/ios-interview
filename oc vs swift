@@ -1,0 +1,15 @@
+objective-c和swift的比较
+#语法
+swift使用链式语法
+#实例创建
+oc
+- (id)instance {
+	dispatch_once_t predict;
+	id instance;
+	dispatch_once(&predict, ^{
+		instance = [[self alloc] init];
+	})
+	return instance;
+}
+swift
+static let instance = CTViewController()
