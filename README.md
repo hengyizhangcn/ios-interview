@@ -1,5 +1,7 @@
 # ios-interview
-ios 面试知识点
+ios 面试知识点<br>
+欢迎提出错误点
+
 
 #基础知识点
 1.import和class的区别<br>
@@ -11,9 +13,12 @@ Implement viewDidLoad to do additional setup after loading the view, typically f
 controller生命周期：alloc->init->loadview->viewdidload->viewwillappear->viewdidappear->viewwilldisapper->viewdiddisappear->dealloc<br>
 如果有内存警告，可能调用的顺序是:viewdiddisappear->内存警告->viewdidunload->对象被释放<br>
 4.post和get的区别<br>
-5.swift和oc优缺点<br>
-6.swift中!和?是做什么的<br>
-7.http请求方式有哪些<br>
+一个用于发送数据，一个用于获取数据<br>
+5.http请求方式有哪些<br>
+增删改查put, delete, post, get<br>
+options, head, trace, connect, 实际中用post/get来间接实现其它的功能<br>
+6.swift和oc优缺点<br>
+7.swift中!和?是做什么的<br>
 8.工作中用到的工具或插件有哪些<br>
 VVDocument, Backlight(Xcode8中已内置该功能，可废弃), KSImageNamed(Xcode8中已内置该功能，可废弃)<br>
 git, zsh, brew, fastlane, cocopods, dyci, iterms<br>
@@ -78,14 +83,18 @@ souretree, cornerstone, sublime, Xmind, Reveal, Charles, MarkMan, Jenkins, iTool
 
 #高阶
 1.插件化开发<br>
-2.面向协议开发<br>
+2.面向协议编程(POP)<br>
+protocol oriented programming
 3.代码调试和调优<br>
 4.事件响应机制<br>
 5.响应式编程<br>
-6.函数式编程<br>
+6.函数式编程(functional programming)<br>
+面向值的编程(VOP)<br>
+value-oriented pragramming
 7.OOA/OOD<br>
 8.OpenGL ES、ffmpeg<br>
 9.NFC<br>
+10.依赖注入<br>
 
 #热点技术
 1.MVVM<br>
@@ -93,4 +102,5 @@ souretree, cornerstone, sublime, Xmind, Reveal, Charles, MarkMan, Jenkins, iTool
 3.Hybrid App<br>
 4.JsPath<br>
 5.逆向反编译技术<br>
+6.Rest Application<br>
 
