@@ -4,8 +4,8 @@ swift使用链式语法
 #实例创建
 oc
 - (id)instance {
-	dispatch_once_t predict;
-	id instance;
+	static dispatch_once_t predict;
+	static id instance;
 	dispatch_once(&predict, ^{
 		instance = [[self alloc] init];
 	})
