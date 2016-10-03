@@ -48,14 +48,56 @@ souretree, cornerstone, sublime, Xmind, Reveal, Charles, MarkMan, Jenkins, iTool
 30.GCD队列分类<br>
 31.内存管理是怎样的<br>
 32.设计模式有哪些<br>
+代理模式，如tableview，等</br>
+工厂模式，<br>
+单例模式<br>
+装饰器模式，不改变原来代码的情况下，给对象增加新的行为和职责，如类别和代理<br>
+观察者设计模式，如notification, kvo<br>
+策略模式，<br>
 33.APNS原理是怎样的<br>
 34.网络请求常见的错误代号是什么<br>
+1xx 信息提示<br>
+-100 继续<br>
+-101 切换协议<br>
+2xx 成功<br>
+-200 客户端请求已成功<br>
+-201 已创建<br>
+-202 已接受<br>
+-203 非权威信息<br>
+-204 无内容<br>
+-205 重置内容<br>
+-206 部分内容<br>
+-207 多状态<br>
+3xx 重定向<br>
+-301 已永久移动<br>
+-302 对象已移动<br>
+-304 未修改<br>
+-307 临时重定向<br>
+4xx 客户端错误，如请求了不存在的页面，没有进行有效的身份验证<br>
+-400 错误的请求<br>
+-401 访问被拒绝<br>
+-403 禁止访问<br>
+-404 未找到<br>
+-406 客户端浏览器不接受所请求页面的MIME类型<br>
+-412 前提条件失败<br>
+-413 请求实体太长<br>
+-414 请求URI太长<br>
+-415 不支持的媒体类型<br>
+-417 执行失败<br>
+5xx 服务器错误<br>
+-500 内部服务器错误<br>
+-504 网关超时<br>
+-505 http版本不受支持<br>
 35.XML解析方式<br>
+NSXMLParse<br>
 36.多线程有哪些，比较它们的不同<br>
 37.以+ scheduledTimerWithTimeInterval...的方式触发的timer，在滑动页面上的列表时，timer会暂定回调，为什么？如何解决？<br>
 38.retain和strong的区别<br>
 39.autorelease什么时候释放<br>
 40.GCD并发控制<br>
+dispatch_semaphore_create<br>
+dispatch_semaphore_signal<br>
+dispatch_semaphore_wait<br>
 41.MRC和ARC的区别<br>
 42.dealloc不调用的原因有哪些<br>
 43.视图一闪而过，可能原因是什么<br>
