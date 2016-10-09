@@ -1,0 +1,12 @@
+
+Cocoa Touch
+Multi-Touch, Alerts, Core Motion, Web View, View Hierarchy, Map Kit, Localization, Image Picker, Camera, Controls
+
+Media
+Core Audio, JPEG, PNG, TIFF, OpenAL, PDF, Audio Mixing, Quartz(2D), Audio Recording, Core Animation, Video Playback, OpenGL ES
+
+Core services
+collections, core location, address book, net services, networking, threading, file access, preferences, SQLite, URL Utilities
+
+core OS硬件层
+OSx kernel, Mach 3.0, BSD, Sockets, Security, File System, certifications, keychain Access, certificates, Bonjour

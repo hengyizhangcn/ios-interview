@@ -39,9 +39,15 @@ auto,标识局部变量<br>
 extern，声明在当前文件中，引用在其它文件中，定义的全局变量，如初始化放在数据区，否则放在BBS区<br>
 register，由内存调入寄存器，并常驻寄存器<br>
 static，静态变量，存储在数据区<br>
+字符串常量，存储在数据区，生存期为程序运行期间，作用域为当前文件<br>
 18.NSCopying协议<br>
+目的是使一个对象支持拷贝，需实现copyWithZone:方法
 19.storyboard和纯代码的区别<br>
 20.mvc是怎么通信的<br>
+C->M, 直接通信<br>
+C->V, 直接通信<br>
+V->C, target-Action, delegate<br>
+M->C, Notification && KVO<br>
 21.autolayout和frame的区别, autolayout什么实现的<br>
 22.以空间复杂度换时间复杂度会产生什么影响<br>
 23.NSIteger和int的区别<br>
@@ -109,6 +115,8 @@ dispatch_semaphore_wait<br>
 42.dealloc不调用的原因有哪些<br>
 43.视图一闪而过，可能原因是什么<br>
 <br>
+44.结构体和类的区别？<br>
+结构体按值传递，类按引用传递<br>
 <br>
 #进阶知识点
 1.KVO怎么手动调用<br>
