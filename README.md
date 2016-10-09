@@ -1,6 +1,6 @@
 # ios-interview
 ios 面试知识点<br>
-欢迎提出错误点
+欢迎指正
 
 
 #基础知识点
@@ -32,7 +32,13 @@ souretree, cornerstone, sublime, Xmind, Reveal, Charles, MarkMan, Jenkins, iTool
 14.UIAlertViewController为什么舍弃了代理模式，而UITableView还保留<br>
 15.sdwebimage工作原理，为什么不直接使用afnetworking<br>
 16.oc中extension和swift区别<br>
-17.c中的内存类型有哪些<br>
+17.c中的内存空间类型有哪些<br>
+代码区(存放CPU执行的机器指令，共享，只读)，数据区（存放已初始化的全局变量、静态变量、常量数据），BBS区（存放未初始化的全局变量和静态变量），栈区（存放函数的参数值、返回值和局部变量），堆区（由malloc函数分配的内存块，free()函数来释放，堆的申请释放由程序员控制）<br>
+存储类型有:<br>
+auto,标识局部变量<br>
+extern，声明在当前文件中，引用在其它文件中，定义的全局变量，如初始化放在数据区，否则放在BBS区<br>
+register，由内存调入寄存器，并常驻寄存器<br>
+static，静态变量，存储在数据区<br>
 18.NSCopying协议<br>
 19.storyboard和纯代码的区别<br>
 20.mvc是怎么通信的<br>
@@ -42,6 +48,7 @@ souretree, cornerstone, sublime, Xmind, Reveal, Charles, MarkMan, Jenkins, iTool
 24.本地保存数据机制有哪些<br>
 25.swift和ios10了解多少<br>
 26.常去的网站有哪些<br>
+掘金，
 27.cell中子视图添加到self和self.contentview的区别<br>
 28.__block和__weak的区别<br>
 29.使用的第三方组件有哪些<br>

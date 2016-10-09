@@ -1,0 +1,30 @@
+1.四层协议分为哪四层？七层呢
+应用层，传输层，网络层，数据链接层
+应用层，表示层，会话层，传输层，网络层，数据链接层，物理层
+2.每层的协议有哪些
+应用层：
+-http, 
+-https, hyper text transfer protocol over secure socket layer
+-FTP, 文件传输协议，分为主动和被动两种模式
+-tftp, trivial file transfer protocol简单文件传输协议
+-DNS, 主机名到ip地址的映射服务
+-Telnet, 用于远程登录
+-SMTP(simple mail transfer), 用于电子邮箱传送
+-SNMP(simple network management), 用于管理与监视网络设备
+-NFS, network file system
+-POP3, post office protocol 3，邮件读取协议
+传输层：
+-TCP, 
+-UDP, user datagram protocol
+网络层：
+-IP
+-ICMP，internet control message protocol, 控制报文协议，在IP主机和路由器之间传递控制消息，如网络通不通，主机是否可达，路由是否可用等
+如ping命令，就有echo回应
+-ARP, address resolution protocol地址转换协议，通过ip找mac地址
+-RARP, reverse ARP反向地址转换
+—OSPF
+-BGP
+-IGMP
+数据链接层：ppp, pptp, ethernet, frame relay, CSMA/CD
+3.三次握手和四次握手过程 是怎样的？
+4.TCP支持的应用层协议有哪些？UDP呢？
