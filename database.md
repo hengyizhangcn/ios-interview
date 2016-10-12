@@ -9,7 +9,7 @@ DB2 IBM
 Sybase  
 Sqlite  
 
-##分部式数据库:
+##分布式数据库:
 (NoSQL, 非结构化)  
 MongoDB, HBase(和Hadoop关联), Cassandra(Facebook)  
 数据分片类型：水平分片，垂直分片，导出分片，混合分片  
