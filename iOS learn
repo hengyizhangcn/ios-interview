@@ -1,4 +1,5 @@
 
+1.系统分层
 Cocoa Touch
 Multi-Touch, Alerts, Core Motion, Web View, View Hierarchy, Map Kit, Localization, Image Picker, Camera, Controls
 
@@ -10,3 +11,4 @@ collections, core location, address book, net services, networking, threading, f
 
 core OS硬件层
 OSx kernel, Mach 3.0, BSD, Sockets, Security, File System, certifications, keychain Access, certificates, Bonjour
+2.平台构建
